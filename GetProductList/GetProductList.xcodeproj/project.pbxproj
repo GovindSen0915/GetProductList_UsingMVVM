@@ -14,6 +14,7 @@
 		E8115E792A9E6C5A008788DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8115E772A9E6C5A008788DF /* LaunchScreen.storyboard */; };
 		E889C49F2A9F089900679A2A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E889C49E2A9F089900679A2A /* Product.swift */; };
 		E889C4A12A9F127D00679A2A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E889C4A02A9F127D00679A2A /* APIManager.swift */; };
+		E889C4A32A9F17DD00679A2A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E889C4A22A9F17DD00679A2A /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E8115E7A2A9E6C5A008788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E889C49E2A9F089900679A2A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E889C4A02A9F127D00679A2A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E889C4A22A9F17DD00679A2A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		E889C4942A9EFE0D00679A2A /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				E889C4A22A9F17DD00679A2A /* Constant.swift */,
 			);
 			name = Constant;
 			path = Application/Constant;
@@ -235,6 +238,7 @@
 			files = (
 				E889C4A12A9F127D00679A2A /* APIManager.swift in Sources */,
 				E8115E6D2A9E6C59008788DF /* AppDelegate.swift in Sources */,
+				E889C4A32A9F17DD00679A2A /* Constant.swift in Sources */,
 				E8115E6F2A9E6C59008788DF /* SceneDelegate.swift in Sources */,
 				E889C49F2A9F089900679A2A /* Product.swift in Sources */,
 			);
