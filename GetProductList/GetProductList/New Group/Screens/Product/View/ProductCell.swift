@@ -8,7 +8,14 @@
 import UIKit
 
 class ProductCell: UITableViewCell {
-
+    
+    @IBOutlet weak var productBackgroundView: UIView!
+    @IBOutlet weak var productTitleLabel: UILabel!
+    @IBOutlet weak var productCategoryLabel: UILabel!
+    @IBOutlet weak var rateButton: UIButton!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
