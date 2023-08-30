@@ -16,11 +16,7 @@ class ProductListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configuration()
-        
-
     }
-  
-
 }
 
 extension ProductListViewController {
@@ -47,9 +43,12 @@ extension ProductListViewController {
                 print("Stop loading...")
             case .dataLoaded:
                 print("Data loaded...")
+                DispatchQueue.main.async {
+                    self.productTableView.reloadData()
+                }
                 print(self.viewModel.products)
             case .error(let error):
-                print(error)
+                print(error as Any)
             }
         }
         
