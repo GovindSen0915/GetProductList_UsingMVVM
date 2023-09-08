@@ -1,5 +1,9 @@
 # GetProductList_UsingMVVM
 
+Products Light Mode    |  Products Dark Mode
+:-------------------------:|:-------------------------:
+<img alt="Products List" src="Screenshots/product_light.png">|<img alt="Products list" src="Screenshots/product_dark.png">
+
 - **Project Overview**
   - This project is an iOS app for displaying a list of products fetched from a remote API and showing their details in a table view.
 
